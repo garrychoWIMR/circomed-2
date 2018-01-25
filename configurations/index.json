@@ -1,0 +1,10 @@
+{
+	"api_path_development":"https://cbs.wappsystem.com/dev/",
+	"api_path_production":"https://rt.woolcock.org.au/",
+	"default_production":"Yes",
+    "panels":{
+		"website":		{"url":"","modules":["modules/website/module.json"]},
+		"circomed":			{"url":"modules/panel/circomed.html","modules":["modules/participant-and-others/module.json","modules/edc/module.json"]},
+		"circomed-child":	{"url":"modules/panel/circomed.child.html",	"modules":["modules/participant-and-others/module.json","modules/edc/module.json"]}
+	}
+}
